@@ -90,3 +90,53 @@ footer {
     border-bottom: 4px solid #cc66cc;
     opacity: 0.8; /* Añade un poco de transparencia al fondo */
 }
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 768px) {
+    body {
+        text-align: left; /* Cambia el texto a alineación izquierda */
+        padding: 1rem; /* Añade un poco de espacio alrededor */
+    }
+
+    header {
+        padding: 1rem;
+        text-align: center; /* Centra el texto del encabezado */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Reduce el tamaño del título */
+    }
+
+    p {
+        font-size: 1rem; /* Ajusta el tamaño del texto */
+    }
+
+    .spoof-gallery {
+        flex-direction: column; /* Cambia la disposición a columnas */
+        padding: 1rem;
+    }
+
+    .spoof-gallery section {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        margin-bottom: 1rem; /* Añade espacio entre secciones */
+    }
+
+    .spoof-gallery h2 {
+        font-size: 1.2rem; /* Reduce el tamaño del texto */
+    }
+
+    footer {
+        font-size: 0.9rem; /* Reduce el tamaño del texto del pie de página */
+        padding: 0.5rem;
+    }
+
+    .icon-container {
+        margin: 1rem auto; /* Centra los íconos */
+    }
+
+    .icon-container img {
+        width: 100%; /* Ajusta las imágenes al ancho del contenedor */
+        max-width: 18.75rem; /* Limita el tamaño máximo (300px en rem) */
+        height: auto; /* Mantén la proporción de la imagen */
+    }
+}
