@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ffccff;
+    opacity: 0.8; /* Añade un poco de transparencia al fondo */
+    padding: 20px;
+    border-bottom: 4px solid #cc66cc;
+}
+
+.logo {
+    width: 200px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #cc33aa;
+    margin: 10px 0 5px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #444;
+}
+
+/* Estilos para organizar las fases en columnas */
+
+main h2 {
+    color: #cc33aa;
+    margin: 20px 0 10px;
+    background-color: #fff;
+    border: 3px solid #cc66cc;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    margin: 0 auto; /* Centra el contenedor */
+    max-width: 500px;
+    padding: 15px;
+    margin-top: 50px; /* Espacio superior para separar del header */
+}
+.spoof-gallery {
+    background-color: #fff;
+        border: 3px solid #cc66cc;
+        border-radius: 15px;
+        padding: 15px;
+        max-width: 500px;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+        margin: 0 auto; /* Centra el contenedor */
+        margin-bottom: 50px; /* Espacio inferior para separar del footer */
+    display: flex;
+}
+
+.spoof-gallery section {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.spoof-gallery h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.spoof-gallery ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.spoof-gallery li {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #ffccff;
+    padding: 10px;
+    border-bottom: 4px solid #cc66cc;
+    opacity: 0.8; /* Añade un poco de transparencia al fondo */
+}
