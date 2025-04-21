@@ -140,3 +140,96 @@ footer {
         height: auto; /* Mantén la proporción de la imagen */
     }
 }
+
+/* Estilos responsivos para dispositivos móviles pequeños */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Reduce el tamaño de fuente general */
+        padding: 0.5rem; /* Reduce el espacio alrededor */
+    }
+
+    header {
+        padding: 0.5rem;
+        font-size: 1rem; /* Reduce el tamaño del texto del encabezado */
+    }
+
+    h1 {
+        font-size: 1.2rem; /* Reduce el tamaño del título */
+        margin: 0.5rem 0; /* Ajusta los márgenes */
+    }
+
+    p {
+        font-size: 0.9rem; /* Reduce el tamaño del texto */
+    }
+
+    .spoof-gallery {
+        flex-direction: column; /* Cambia la disposición a columnas */
+        padding: 0.5rem;
+    }
+
+    .spoof-gallery section {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        margin-bottom: 0.5rem; /* Reduce el espacio entre secciones */
+        padding: 10px; /* Reduce el padding interno */
+    }
+
+    .spoof-gallery h2 {
+        font-size: 1rem; /* Reduce el tamaño del texto */
+    }
+
+    footer {
+        font-size: 0.8rem; /* Reduce el tamaño del texto del pie de página */
+        padding: 0.5rem;
+    }
+
+    .icon-container {
+        margin: 0.5rem auto; /* Centra los íconos con menos espacio */
+    }
+
+    .icon-container img {
+        width: 100%; /* Ajusta las imágenes al ancho del contenedor */
+        max-width: 15rem; /* Limita el tamaño máximo (240px en rem) */
+        height: auto; /* Mantén la proporción de la imagen */
+    }
+}
+
+/* Estilos responsivos para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        text-align: center; /* Centra el texto para tablets */
+        padding: 1.5rem; /* Ajusta el espacio alrededor */
+    }
+
+    header {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem; /* Ajusta el tamaño del título */
+    }
+
+    p {
+        font-size: 1.1rem; /* Ajusta el tamaño del texto */
+    }
+
+    .spoof-gallery {
+        flex-direction: row; /* Mantén las secciones en fila */
+        flex-wrap: wrap; /* Permite que las secciones se ajusten */
+        justify-content: center; /* Centra las secciones */
+        padding: 2rem;
+    }
+
+    .spoof-gallery section {
+        width: 45%; /* Ocupa casi la mitad del ancho */
+        margin: 1rem; /* Añade espacio entre secciones */
+    }
+
+    .spoof-gallery h2 {
+        font-size: 1.4rem; /* Ajusta el tamaño del texto */
+    }
+
+    footer {
+        font-size: 1rem; /* Ajusta el tamaño del texto del pie de página */
+        padding: 1rem;
+    }
+}
